@@ -7,6 +7,10 @@ namespace Game1.Characters
 {
     public class Elf : Character
     {
+        public Elf(string charName, int attackDamage, int defensePower, int health) : base(charName, attackDamage, defensePower, health)
+        {
+        }
+
         public override void Attack()
         {
             throw new NotImplementedException();

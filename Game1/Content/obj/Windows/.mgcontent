@@ -4,11 +4,11 @@
   <Platform>Windows</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/damianpelovski/Documents/Game1/Game1/Content/test.jpg</File>
-    <File>C:/Users/damianpelovski/Documents/Game1/Game1/Content/earth.png</File>
-    <File>C:/Users/damianpelovski/Documents/Game1/Game1/Content/shuttle.png</File>
-    <File>C:/Users/damianpelovski/Documents/Game1/Game1/Content/stars.jpg</File>
-    <File>C:/Users/damianpelovski/Documents/Game1/Game1/Content/Score.spritefont</File>
-    <File>C:/Users/damianpelovski/Documents/Game1/Game1/Content/SmileyWalk.png</File>
+    <File>C:/Users/Jericho/Desktop/Game1/Game1/Content/test.jpg</File>
+    <File>C:/Users/Jericho/Desktop/Game1/Game1/Content/earth.png</File>
+    <File>C:/Users/Jericho/Desktop/Game1/Game1/Content/shuttle.png</File>
+    <File>C:/Users/Jericho/Desktop/Game1/Game1/Content/stars.jpg</File>
+    <File>C:/Users/Jericho/Desktop/Game1/Game1/Content/Score.spritefont</File>
+    <File>C:/Users/Jericho/Desktop/Game1/Game1/Content/SmileyWalk.png</File>
   </SourceFiles>
 </SourceFileCollection>

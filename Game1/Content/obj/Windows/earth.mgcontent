@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/damianpelovski/Documents/Game1/Game1/Content/earth.png</SourceFile>
-  <SourceTime>2015-12-02T14:05:18+02:00</SourceTime>
-  <DestFile>C:/Users/damianpelovski/Documents/Game1/Game1/Content/bin/Windows/earth.xnb</DestFile>
-  <DestTime>2015-12-02T14:13:45.4135938+02:00</DestTime>
+  <SourceFile>C:/Users/Jericho/Desktop/Game1/Game1/Content/earth.png</SourceFile>
+  <SourceTime>2015-12-04T13:10:13.4707802+02:00</SourceTime>
+  <DestFile>C:/Users/Jericho/Desktop/Game1/Game1/Content/bin/Windows/earth.xnb</DestFile>
+  <DestTime>2015-12-05T21:39:11.0604424+02:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2015-11-27T12:12:22+02:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

@@ -21,5 +21,9 @@ namespace Game1.Characters
         {
             throw new NotImplementedException();
         }
+
+        public Boss(string charName, int attackDamage, int defensePower, int health) : base(charName, attackDamage, defensePower, health)
+        {
+        }
     }
 }

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/damianpelovski/Documents/Game1/Game1/Content/SmileyWalk.png</SourceFile>
-  <SourceTime>2015-12-02T16:59:40.9746952+02:00</SourceTime>
-  <DestFile>C:/Users/damianpelovski/Documents/Game1/Game1/Content/bin/Windows/SmileyWalk.xnb</DestFile>
-  <DestTime>2015-12-02T17:02:43.0448627+02:00</DestTime>
+  <SourceFile>C:/Users/Jericho/Desktop/Game1/Game1/Content/SmileyWalk.png</SourceFile>
+  <SourceTime>2015-12-04T13:10:13.5238507+02:00</SourceTime>
+  <DestFile>C:/Users/Jericho/Desktop/Game1/Game1/Content/bin/Windows/SmileyWalk.xnb</DestFile>
+  <DestTime>2015-12-05T21:39:11.3961617+02:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2015-11-27T12:12:22+02:00</ImporterTime>
   <Processor>TextureProcessor</Processor>
