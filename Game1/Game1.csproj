@@ -40,6 +40,7 @@
     <ApplicationIcon>Icon.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="AnimatedSprite.cs" />
     <Compile Include="Characters\Boss.cs" />
     <Compile Include="Characters\Character.cs" />
     <Compile Include="Characters\Elf.cs" />

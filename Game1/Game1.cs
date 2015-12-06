@@ -18,6 +18,7 @@ namespace Game1
         private int score = 0;
         private Texture2D walk;
         
+        private AnimatedSprite animatedSprite;
 
         public Game1()
         {
@@ -48,12 +49,10 @@ namespace Game1
             spriteBatch = new SpriteBatch(GraphicsDevice);
             Texture2D image = Content.Load<Texture2D>("test");
             background = Content.Load<Texture2D>("stars");
-            shuttle = Content.Load<Texture2D>("shuttle");
-            earth = Content.Load<Texture2D>("earth");
-            font = Content.Load<SpriteFont>("Score");
             walk = Content.Load<Texture2D>("SmileyWalk");
 
-            // TODO: use this.Content to load your game content here
+            Texture2D texture = Content.Load<Texture2D>("SmileyWalk");
+            animatedSprite = new AnimatedSprite(texture, 4, 4);
         }
         
         /// <summary>
@@ -74,9 +73,9 @@ namespace Game1
         {
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
                 Exit();
-            score++;
-            // TODO: Add your update logic here
-
+           
+            
+            animatedSprite.Update();
             base.Update(gameTime);
         }
 
@@ -86,17 +85,15 @@ namespace Game1
         /// <param name="gameTime">Provides a snapshot of timing values.</param>
         protected override void Draw(GameTime gameTime)
         {
-            GraphicsDevice.Clear(Color.CornflowerBlue);
+           // GraphicsDevice.Clear(Color.CornflowerBlue);
 
             spriteBatch.Begin();
             spriteBatch.Draw(background, new Rectangle(0, 0, 800, 480),Color.White);
-            spriteBatch.Draw(earth, new Vector2(400, 240), Color.White);
-            spriteBatch.Draw(shuttle, new Vector2(450, 240), Color.White);
-            spriteBatch.Draw(walk, new Vector2(200, 200), Color.White);
-            spriteBatch.DrawString(font, "Score" + score, new Vector2(600, 200), Color.White);
             spriteBatch.End();
 
             // TODO: Add your drawing code here
+
+            animatedSprite.Draw(spriteBatch, new Vector2(400, 200));
 
             base.Draw(gameTime);
         }

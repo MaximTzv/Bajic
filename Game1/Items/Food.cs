@@ -7,5 +7,6 @@ namespace Game1.Items
 {
     public class Food : Item
     {
+
     }
 }
